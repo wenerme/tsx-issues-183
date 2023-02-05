@@ -1,0 +1,53 @@
+{
+  "name": "@wener/apis",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "lint": "next lint",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@octokit/rest": "^19.0.7",
+    "@sequelize/core": "7.0.0-alpha.20",
+    "@tanstack/react-query": "^4.23.0",
+    "@trpc/client": "^10.9.0",
+    "@trpc/next": "^10.9.0",
+    "@trpc/react-query": "^10.9.0",
+    "@trpc/server": "^10.9.0",
+    "@wener/reaction": "^1.2.17",
+    "@wener/utils": "^1.1.9",
+    "classnames": "^2.3.2",
+    "cmdk": "^0.1.21",
+    "common": "^1.0.0",
+    "cors": "^2.8.5",
+    "immer": "^9.0.18",
+    "lodash": "^4.17.21",
+    "next": "^13.1.5",
+    "next-auth": "^4.18.10",
+    "next-superjson-plugin": "^0.5.4",
+    "pino": "^8.8.0",
+    "pino-pretty": "^9.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-router-dom": "6.8.0",
+    "semver": "^7.3.8",
+    "superjson": "^1.12.2",
+    "trpc-openapi": "^1.1.2",
+    "use-immer": "^0.8.1",
+    "valtio": "^1.9.0",
+    "zod": "^3.20.2",
+    "zustand": "^4.3.2",
+    "zxcvbn": "^4.4.2"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.191",
+    "@types/semver": "^7.3.13",
+    "@types/zxcvbn": "^4.4.1",
+    "@vitejs/plugin-react": "^3.0.1",
+    "vite": "^4.0.4",
+    "vite-plugin-dynamic-import": "^1.2.7"
+  }
+}
